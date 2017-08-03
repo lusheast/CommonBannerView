@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <!--自定仪属性-->
+        <!--当前选中点的颜色-->
+        <attr name="dotIndicatorSelectedColor" format="color|reference"/>
+        <!--未选中的点颜色-->
+        <attr name="dotIndicatorNormalColor" format="color|reference"/>
+        <!--点的大小-->
+        <attr name="dotSize" format="dimension"/>
+        <!--点的间距-->
+        <attr name="dotSpacing" format="dimension"/>
+        <!--底部背景色-->
+        <attr name="bottomColor" format="color"/>
+        <!--点的位置-->
+        <attr name="dotGravity">
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="left" value="-1"/>
+        </attr>
+        <!--banner的宽度比-->
+        <attr name="widthProportion" format="float"/>
+        <!--banner的高度比-->
+        <attr name="heightProportion" format="float"/>
+
+    </declare-styleable>
+</resources>

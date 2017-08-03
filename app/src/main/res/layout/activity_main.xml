@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moocollege.cn.commonbannerview.MainActivity">
+
+    <!--<moocollege.cn.commonbannerview.banner.CommonBanner-->
+    <!--android:id="@+id/banner_vp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="140dp" />-->
+
+    <moocollege.cn.commonbannerview.banner.BannerView
+        android:id="@+id/banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:dotSize="10dp"
+        app:widthProportion="8"
+        app:heightProportion="3"
+        app:dotGravity="center"
+        app:bottomColor="@color/banner_bottom_color"
+        app:dotSpacing="10dp"
+        app:dotIndicatorNormalColor="@color/colorPrimaryDark"
+        app:dotIndicatorSelectedColor="@color/colorAccent"/>
+
+
+</RelativeLayout>
